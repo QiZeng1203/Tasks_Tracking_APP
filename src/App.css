@@ -1,0 +1,194 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  width: 600px;
+  min-height: 600px;
+  background:#ffd6d6;
+  text-align: center;
+  margin: 128px auto;
+  border-radius: 10px;
+  padding-bottom: 32px;
+  list-style: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+}
+
+body {
+  background-color:#ecf2f9;
+}
+
+h1 {
+  margin: 32px 20px;
+  color: grey;
+  font-size: 24px;
+}
+
+.assignment-text-complete {
+  text-decoration: line-through;
+  opacity: 0.4;
+}
+
+.add-form {
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+
+.controls-logout {
+  right: 15px; top: 15px
+}
+
+.add-assignmentName {
+  padding: 14px 32px 14px 16px;
+  border-radius: 4px;
+  border: 2px solid #fca7a7;
+  outline: none;
+  width: 420x;
+  background: transparent;
+  color: grey;
+}
+
+.add-dueDate {
+  padding: 14px 32px 14px 16px;
+  border-radius: 4px;
+  border: 2px solid #fca7a7;
+  outline: none;
+  width: 160px;
+  background: transparent;
+  color: grey;
+}
+
+.login-username {
+  margin-left: 10px;
+  padding: 14px 32px 14px 16px;
+  border-radius: 4px ;
+  border: 2px solid #fca7a7;
+  outline: none;
+  width: 160px;
+  background: transparent;
+  color:grey;
+}
+
+.edit-input {
+  margin-left: 10px;
+  padding: 14px 32px 14px 16px;
+  border-radius: 4px;
+  border: 2px solid #fca7a7;
+  outline: none;
+  width: 160px;
+  background: transparent;
+  color:grey;
+}
+
+.assignment-toggle {
+  margin-right: 10px;
+}
+
+.add-button {
+  padding: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  outline: none;
+  background-color:#c8d9eb;
+  color: grey;
+  text-transform: capitalize;
+}
+
+.assignment-edit_submit {
+  padding: 16px;
+  border: none;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  outline: none;
+  background-color:#c8d9eb;
+  color: grey;
+  text-transform: capitalize;
+}
+
+.assignment-edit_cancel {
+  padding: 16px;
+  border: none;
+  margin-left: 32px;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  outline: none;
+  background-color:#c8d9eb;
+  color: grey;
+  text-transform: capitalize;
+}
+
+.assignment-edit {
+  padding: 16px;
+  border: none;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  outline: none;
+  background-color:#c8d9eb;
+  color: grey;
+  text-transform: capitalize;
+}
+
+.assignment-delete {
+  padding: 16px;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  margin-left: 32px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  outline: none;
+  background-color:#c8d9eb;
+  color: grey;
+  text-transform: capitalize;
+}
+
+.controls-logout {
+  padding: 10px;
+  position: relative; 
+  top: -15px; 
+  left: 260px;
+  border: none;
+  border-radius: 4px ;
+  cursor: pointer;
+  outline: none;
+  background-color:#c8d9eb;
+  color: grey;
+  text-transform: capitalize;
+}
+
+.login-button {
+  padding: 16px;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  margin-left: 32px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  outline: none;
+  background-color:#c8d9eb;
+  color: grey;
+  text-transform: capitalize;
+}
+
+.welcome {
+  margin: 32px 0;
+  color: grey;
+  font-size: 24px;
+}
